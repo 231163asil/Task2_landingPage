@@ -3,34 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodie</title>
+    <title>Foodie Restaurant</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <nav>
-        <div class="navbar">Foodie</div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Menu</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <div class="navbar">Foodie</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section class="hero">
+    <section class="hero" id="home">
         <img
-            src="images/restaurent.jpg"
-            alt="Restaurant image"
-        >
-        <div class="hero_content">
-            <h1 class="hero_title">Welcome to Our Restaurant</h1>
-            <a href="#services" class="order_btn">Order Now</a>
+            src="images/restaurant.jpg" alt="Restaurant dining area">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Our Restaurant</h1>
+            <a href="#services" class="order-btn"> Order Now </a>
         </div>
     </section>
 
     <section class="about" id="about">
-        <h2 class="section_title">About Us</h2>
-        <p class="about_text">
+        <h2 class="section-title">About Us</h2>
+        <p class="about-text">
             Foodie is a cozy neighborhood restaurant serving fresh pizza,
             burgers, drinks, and desserts every day. We focus on simple,
             tasty food made with quality ingredients, served fast and fresh.
@@ -38,38 +40,26 @@
     </section>
 
     <section class="categories" id="services">
-        <h2 class="section_title">Our Menu</h2>
-        <div class="categories_class">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="categories-class">
 
             <div class="card">
-                <img
-                    src="images/pizza.jpeg"
-                    alt="Pizza"
-                >
+                <img src="images/pizza.jpeg" alt="Fresh pizza">
                 <p>Pizza</p>
             </div>
 
             <div class="card">
-                <img
-                    src="images/burger.jpeg"
-                    alt="Burger"
-                >
+                <img src="images/burger.jpeg" alt="Beef burger" >
                 <p>Burger</p>
             </div>
 
             <div class="card">
-                <img
-                    src="images/drinks.jpeg"
-                    alt="Drinks"
-                >
+                <img src="images/drinks.jpeg" alt="Cold drinks">
                 <p>Drinks</p>
             </div>
 
             <div class="card">
-                <img
-                    src="images/dessert.jpeg"
-                    alt="Dessert"
-                >
+                <img src="images/dessert.jpeg" alt="Delicious dessert">
                 <p>Dessert</p>
             </div>
 
@@ -77,14 +67,25 @@
     </section>
 
     <section class="contact" id="contact">
-        <h2 class="section_title">Contact Us</h2>
-        <p class="contact_text">Got a question or want to place an order? Reach out anytime.</p>
-        <div class="contact_info">
-            <p>📞 +20 100 000 0000</p>
-            <div class ="social_links">
-            <a href="https://www.instagram.com/foodie.restaurant">Instagram</a>|
-            <a href="https://www.facebook.com/foodie.restaurant">Facebook</a>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="contact-text">
+            Got a question or want to place an order? Reach out anytime.
+        </p>
+
+        <div class="contact-info">
+            <p>
+                Phone:<a href="tel:+201000000000"> +20 100 000 0000 </a>
+            </p>
+
+            <p>
+                Email:<a href="mailto:info@foodie.com"> info@foodie.com </a>
+            </p>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/foodie.restaurant" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://www.facebook.com/foodie.restaurant" target="_blank" rel="noopener noreferrer">| Facebook</a>
             </div>
+
         </div>
     </section>
 
